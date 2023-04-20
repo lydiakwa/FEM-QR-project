@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "tailwindcss": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
   "devDependencies": {
     "nodemon": "^2.0.22",
     "prettier": "^2.8.7",
